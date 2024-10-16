@@ -15,11 +15,11 @@ Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, feature
 */
 /* Change the background color of the site header */
 .site-header {
-    background-color: #333333;
+    background-color: #ee1212;
 }
 
 /* Make the footer text smaller and centered */
 .site-footer {
-    font-size: 12px;
+    font-size: 15px;
     text-align: center;
 }

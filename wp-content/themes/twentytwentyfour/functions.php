@@ -204,3 +204,9 @@ if ( ! function_exists( 'twentytwentyfour_pattern_categories' ) ) :
 endif;
 
 add_action( 'init', 'twentytwentyfour_pattern_categories' );
+
+// Add custom text to the header
+function add_custom_header_text() {
+    echo '<div style="text-align: center; color: #555;">This is my custom text displayed in the header.</div>';
+}
+add_action('wp_head', 'add_custom_header_text');
