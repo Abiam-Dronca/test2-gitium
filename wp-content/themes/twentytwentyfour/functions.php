@@ -210,3 +210,8 @@ function add_custom_header_text() {
     echo '<div style="text-align: center; color: #555;">This is my custom text displayed in the header.</div>';
 }
 add_action('wp_head', 'add_custom_header_text');
+
+function add_custom_header_text1() {
+    echo '<div style="text-align: center; color: #555;">Another test for Gitium plugin.</div>';
+}
+add_action('wp_head', 'add_custom_header_text1');
