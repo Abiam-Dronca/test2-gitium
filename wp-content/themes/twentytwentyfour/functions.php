@@ -207,7 +207,7 @@ add_action( 'init', 'twentytwentyfour_pattern_categories' );
 
 // Add custom text to the header
 function add_custom_header_text() {
-    echo '<div style="text-align: center; color: #555;">This is my custom text displayed in the header.</div>';
+    echo '<div style="text-align: center; color: #555;">This is my custom text displayed in the header. This is a test for Gitium plugin to see if the changes are visible</div>';
 }
 add_action('wp_head', 'add_custom_header_text');
 
